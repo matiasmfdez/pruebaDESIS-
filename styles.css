@@ -1,0 +1,15 @@
+.labels {
+    display: inline-block;
+    width: 45%; 
+    vertical-align: top; 
+  }
+  .inputs {
+    display: inline-block;
+    width: 45%; 
+    text-align: left;
+  }
+  .check_enterado{
+    display: inline;
+    width: 45%; 
+    text-align: left;
+  }

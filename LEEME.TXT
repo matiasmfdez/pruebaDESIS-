@@ -1,0 +1,29 @@
+LEEME.txt - Instrucciones de Instalación
+Versión de MySQLworkbench utilizada: 8-0-33 
+versión de php: 8.1.17
+
+Instrucciones de Instalación:
+Descarga el archivo SQL desde el repositorio de GitHub.
+Importar la base de datos:
+Abre MySQL Workbench en tu PC.
+Haz clic en la pestaña "Server" y selecciona la instancia de MySQL en la que deseas importar la base de datos.
+En la barra de menú, selecciona la opción "Server" y luego "Data Import".
+Selecciona la opción "Import from Self-Contained File" y busca el archivo SQL descargado.
+Haz clic en "Start Import" para iniciar el proceso de importación.
+Espera a que se complete la importación de la base de datos.
+Configurar la conexión a la base de datos:
+
+Abrir el archivo conector.php 
+Reemplazar los datos de usuario, contraseña y servidor correspondientes a tu servidor Mysql 
+Nombre de host: [nombre del host de tu base de datos]
+Nombre de usuario: [nombre de usuario de tu base de datos]
+Contraseña: [contraseña de tu base de datos]
+Nombre de la base de datos: [nombre de la base de datos]
+Ejecutar la aplicación:
+
+Abre el proyecto en tu servidor local o en un entorno de desarrollo.
+Ejecuta la aplicación en tu entorno local y verifica que la conexión a la base de datos funcione correctamente.
+abriendo el archivo conector.php en el lolcalhost, este tendrá un mensaje de comprobacion.
+ 
+
+===================
